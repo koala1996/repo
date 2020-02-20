@@ -1,6 +1,6 @@
 {
   "AWSTemplateFormatVersion": "2010-09-09",
-  "Description": "CD Demo Lambda",
+  "Description": "CD Lambda",
   "Resources": {
     "CDDemoLambda": {
       "Type": "AWS::Lambda::Function",
@@ -9,7 +9,7 @@
           "S3Bucket": "testupload3",
           "S3Key": "c463fe94b769f1c05332c44600c1e315"
         },
-        "Description": "Lambda function for CD Demo",
+        "Description": "Lambda function for CD",
         "Tags": [
           {
             "Value": "SAM",
