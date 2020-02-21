@@ -1,13 +1,13 @@
 {
   "AWSTemplateFormatVersion": "2010-09-09",
-  "Description": "CD Lambda",
+  "Description": "CDLambdaFunction",
   "Resources": {
     "CDDemoLambda": {
       "Type": "AWS::Lambda::Function",
       "Properties": {
         "Code": {
           "S3Bucket": "testupload3",
-          "S3Key": "c463fe94b769f1c05332c44600c1e315"
+          "S3Key": "e0eb7ce6b6e096910e63d2ad31b79da9"
         },
         "Description": "Lambda function for CD",
         "Tags": [
@@ -37,7 +37,7 @@
         "RestApiId": {
           "Ref": "ServerlessRestApi"
         },
-        "StageName": "Prod"
+        "StageName": "Prode"
       }
     },
     "ServerlessRestApi": {
